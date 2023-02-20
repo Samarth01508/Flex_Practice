@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-color:white;
+}
+.heading{
+    color:black;
+    text-align: center;
+}
+.container {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 20px;
+  }
+.block{
+    border: 2px solid black;
+    margin: 2px;
+    padding:10px;
+    height: 30rem;
+    overflow-y: auto;
+}
+.block-container{
+    display: flex;
+    flex-direction: column;
+}
